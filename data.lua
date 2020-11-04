@@ -1,7 +1,3 @@
--- Change icon
-data.raw["repair-tool"]["repair-pack"]["icon"] = "__Drill_SoundBible__/repair-pack.png"
-data.raw["repair-tool"]["repair-pack"]["icon_size"] = 32
-
 -- Change repair sounds
 data.raw["utility-sounds"]["default"]["default_manual_repair"]["variations"][1]["filename"] = "__Drill_SoundBible__/manual-repair-simple.ogg"
 data.raw["utility-sounds"]["default"]["default_manual_repair"]["variations"][2] = nil
