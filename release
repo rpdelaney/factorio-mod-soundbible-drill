@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+version="$(jq -r .version < ./Drill_SoundBible/info.json)"
+
+zip -r Drill_SoundBible_"$version".zip ./Drill_SoundBible
