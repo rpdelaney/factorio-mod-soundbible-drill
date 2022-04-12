@@ -5,14 +5,10 @@ for k, l in pairs(data.raw) do
     for m, n in pairs(l) do
         if n.repair_sound ~= nil then
             if n.repair_sound.filename ~= nil then
-                if n.repair_sound.filename == "__base__/sound/manual-repair-simple.ogg" then 
-                    n.repair_sound.filename = "__Drill_SoundBible__/manual-repair-simple.ogg" 
+                if n.repair_sound.filename == "__base__/sound/manual-repair-simple.ogg" then
+                    n.repair_sound.filename = "__Drill_SoundBible__/manual-repair-simple.ogg"
                 end
             end
         end
     end
 end
-
--- Don't do wood
-table.insert(data.raw["container"]["wooden-chest"]["flags"], "not-repairable")
-table.insert(data.raw["electric-pole"]["small-electric-pole"]["flags"], "not-repairable")
