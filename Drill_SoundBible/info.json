@@ -1,8 +1,8 @@
 {
 	"name": "Drill_SoundBible",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"title": "SoundBible Drill",
-	"author": "Ryan P. Delaney",
+	"author": "AnEntireSleeve",
 	"homepage": "https://github.com/rpdelaney/factorio-soundbible-drill",
 	"description": "Changes the repair pack sound to something else than a dentist's drill.",
 	"factorio_version": "1.1",
