@@ -12,7 +12,3 @@ for k, l in pairs(data.raw) do
         end
     end
 end
-
--- Don't do wood
-table.insert(data.raw["container"]["wooden-chest"]["flags"], "not-repairable")
-table.insert(data.raw["electric-pole"]["small-electric-pole"]["flags"], "not-repairable")
